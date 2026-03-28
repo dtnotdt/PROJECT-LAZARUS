@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-philosoph-thinking: #3b82f6; /* bg-blue-500 */
+  --color-philosoph-hungry: #f59e0b; /* bg-amber-500 */
+  --color-philosoph-eating: #10b981; /* bg-emerald-500 */
+  --color-philosoph-waiting: #8b5cf6; /* bg-violet-500 */
+  --color-philosoph-deadlock: #ef4444; /* bg-red-500 */
+  --color-philosoph-starvation: #ea580c; /* bg-orange-600 */
+  --color-philosoph-livelock: #ec4899; /* bg-pink-500 */
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased min-h-screen overflow-x-hidden;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
